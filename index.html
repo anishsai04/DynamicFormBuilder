@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dynamic Form Builder</title>
+  <style>
+    body { font-family: Arial; margin: 20px; }
+    .field { border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; }
+    .required { color: red; }
+    .form-group { margin-bottom: 10px; }
+  </style>
+</head>
+<body>
+  <h2>Form Configuration</h2>
+  <div id="form-builder"></div>
+  <button onclick="addField()">Add Field</button>
+  <button onclick="generateForm()">Generate Form</button>
+
+  <hr>
+  <h2>Generated Form</h2>
+  <form id="dynamic-form"></form>
+  <div id="submitted-data"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
